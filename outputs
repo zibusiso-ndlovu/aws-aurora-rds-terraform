@@ -1,0 +1,11 @@
+output "vpc_id" {
+  value = module.vpc.vpc_id
+}
+
+output "rds_endpoint" {
+  value = module.rds.endpoint
+}
+
+output "bastion_public_ip" {
+  value = module.bastion.public_ip
+}
