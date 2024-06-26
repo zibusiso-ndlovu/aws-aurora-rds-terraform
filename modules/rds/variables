@@ -1,0 +1,11 @@
+variable "vpc_id" {
+  description = "The VPC ID"
+}
+
+variable "private_subnet_ids" {
+  description = "List of private subnet IDs"
+}
+
+variable "bastion_security_group_id" {
+  description = "Security group ID of the bastion host"
+}
